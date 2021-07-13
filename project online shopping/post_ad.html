@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/post_ad.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+        <a class="navbar-brand" href="main.html"><span>TAN</span><span>GO</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">privacy policy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">about us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">faq</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">post ad</a>
+          </li>
+          </ul>
+
+        </div>
+    </div>
+      </nav>
+    
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center mtt">
+            <div class="col-12 col-sm-9 col-md-6">
+                <form class="form-container" action="php/main.php" method="POST">
+                    <div class="row">
+                        <div class="col logo d-flex justify-content-center" >
+                            <span>TAN</span><span>GO</span>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group row mb-3">
+                        <label class="col-sm-2 col-form-label">title</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" placeholder="TITLE" name="title">
+                        </div>
+                    </div>
+                    <div class="form-group row mb-3">
+                        <label class="col-sm-2 col-form-label">category</label>
+                        <div class="col-sm-10">
+                          <input type="text" class="form-control" placeholder="CATEGORY" name="category">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group row mb-3">
+                        <label class="col-sm-2 col-form-label">description</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="3" placeholder="DESCRIPTION" name="description"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row mb-3">
+                        <label class="col-sm-2 col-form-label" >photo</label>
+                        <div class="col-sm-10">
+                            <input type="file" name="photo" >
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group row mb-3">
+                        <label class="col-sm-2 col-form-label" >location</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" placeholder="LOCATION" name="location">
+                        </div>
+                    </div>
+                    <div class="form-group row mb-3">
+                        <label class="col-sm-2 col-form-label" >phone</label>
+                        <div class="col-sm-10">
+                            <input type="number" class="form-control" placeholder="PHONE NUMBER" name="phone">
+                        </div>
+                    </div>
+                    <div class="form-group row mb-3">
+                        <label class="col-sm-2 col-form-label" >email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" placeholder="EMAIL" name="email">
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                        <label class="form-check-label" for="exampleCheck1">by clicking submit you agree to <a href="">the terms and conditions</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary col-12" name="post_ad">SUBMIT</button> 
+
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

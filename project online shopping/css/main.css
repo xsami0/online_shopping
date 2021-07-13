@@ -1,0 +1,170 @@
+
+.navbar
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.ml-auto
+{
+    margin-left: auto !important;
+}
+
+.navbar-brand > span
+{
+    
+    font-size: 25px;
+}
+.navbar-brand span:first-child
+{
+    font-weight: bold;
+    color: #F4F4F4 !important;
+}
+.navbar-brand span:last-child
+{
+    color: #AA3A3A;
+}
+.navbar-nav .nav-link
+{
+    font-weight: 400;
+    color: #F4F4F4 !important ;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+.navbar-nav .active > .nav-link
+{
+    color: #AA3A3A !important ;
+}
+.ad img
+{
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .logo> span
+{
+    
+    font-size: 25px;
+}
+.container .logo span:first-child
+{
+    font-weight: bold;
+    color: #212529;
+}
+.container .logo span:last-child
+{
+    color: #AA3A3A;
+}
+
+hr
+{
+    color: #212529;
+}
+.options  a
+{
+    margin-left: 5px !important;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #AA3A3A;
+}
+.options span
+{
+
+    background: -webkit-linear-gradient(#AA3A3A, #212529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.col-2 a:first-child
+{
+    color: #AA3A3A !important;
+}
+.col-2 a:last-child
+{
+    color: #212529;
+}
+
+.form-container
+{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-edit
+{
+    background-color: #3b5998;
+}
+
+.mid
+{
+    margin-top: 5%;
+}
+.fa-mr
+{
+    margin-right: 10px;
+}
+.logo> span
+{
+    
+    font-size: 25px;
+}
+.logo span:first-child
+{
+    font-weight: bold;
+    color: #212529;
+}
+.logo span:last-child
+{
+    color: #AA3A3A;
+}
+input::-webkit-input-placeholder
+{
+    font-family: FontAwesome;
+    font-weight: normal;
+}
+.mt
+{
+    margin-top: -3%;
+}
+.mtt
+{
+    margin-top: 3%;
+}
+.opt a p
+{
+    margin-top: 28%;
+    
+    
+}
+.opt a
+{
+    text-shadow: #212529 10px 0 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    width: 233px;
+    height: 180px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: font-size 1s ease;
+    
+}
+
+.opt a:hover
+{
+    font-size: 25px;
+}
+.card
+{
+    width: 20rem;
+    transition: box-shadow 1s ease;
+}
+.card:hover
+{
+    box-shadow: 0px 0px 50px black;
+}
